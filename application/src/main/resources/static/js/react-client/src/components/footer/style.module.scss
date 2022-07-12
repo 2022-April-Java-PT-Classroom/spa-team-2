@@ -1,0 +1,32 @@
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    background-color: rgb(227, 242, 22);
+}
+
+.socialList {
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    font-family: cursive;
+    
+    & li {
+        align-items: center;
+        border: 2px solid rgb(14, 233, 215);
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0 20px;
+        min-width: 75px;
+        padding: 2px;
+    }
+
+    & li:hover {
+        background-color: lightblue;
+        transition: .5s;
+    }
+}
