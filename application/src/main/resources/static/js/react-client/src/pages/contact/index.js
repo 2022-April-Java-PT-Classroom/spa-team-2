@@ -1,4 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import phoneIcon from '../../assets/contact.png';
 
-import axios from 'axios';
-import style from './style.module.scss';
+const ContactScreen = () => {
+    return (
+        <div>
+            <img src={phoneIcon} alt='phone icon' />
+            <h2>Contact Us</h2>
+            <article>
+                <h4>Contact Us Today!</h4>
+                <p>(555) 555-5555</p>
+            </article>
+        </div>
+    );
+}
+
+export default ContactScreen;
