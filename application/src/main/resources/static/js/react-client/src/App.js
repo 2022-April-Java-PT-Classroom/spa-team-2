@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Header />
-        <div className={style.page} >
+        <div className={style.pages} >
           <AppRouter />
         </div>        
         <Footer />
