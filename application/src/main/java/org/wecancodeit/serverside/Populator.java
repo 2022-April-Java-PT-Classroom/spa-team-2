@@ -10,21 +10,21 @@ public class Populator implements CommandLineRunner{
     private FishRepository fishRepo;
 
     @Resource
-    git c
+    private SolarSystemRepository solarRepo;
+
 
     @Override
     public void run(String... args) throws Exception {
 
-        Fish atlanticSalmon = new Fish("Atlantic Salmon", "");
+        Fish atlanticSalmon = new Fish("Atlantic Salmon", "description");
         fishRepo.save(atlanticSalmon);
-        Fish bluefish = new Fish("Bluefish", "");
+        Fish bluefish = new Fish("Bluefish", "description");
         fishRepo.save(bluefish);
-        Fish cobia = new Fish("Cobia", "");
+        Fish cobia = new Fish("Cobia", "description");
         fishRepo.save(cobia);
-        Fish haddock = new Fish("haddock", "");
+        Fish haddock = new Fish("haddock", "description");
         fishRepo.save(haddock);
-        fish opah = new Fish("Opah", "");
-
+        fish opah = new Fish("Opah", "description");
 
     }
 }
