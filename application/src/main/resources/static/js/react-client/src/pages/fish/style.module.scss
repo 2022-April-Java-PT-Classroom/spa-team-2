@@ -1,0 +1,15 @@
+.fish {
+    // background-image: url("fishbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem auto;
+    max-width: 100rem;
+    width: 90%;
+    box-shadow: 10px 10px;
+    border:darkblue 5px solid;
+}
+
+.fishWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
