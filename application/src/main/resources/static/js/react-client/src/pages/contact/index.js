@@ -12,6 +12,9 @@ const ContactScreen = () => {
            
         </div>
     );
+    
 }
+
+
 
 export default ContactScreen;

@@ -12,6 +12,7 @@ public class Populator implements CommandLineRunner{
     @Resource
     private SolarSystemRepository solarRepo;
 
+
     @Override
     public void run(String... args) throws Exception {
 
@@ -24,7 +25,6 @@ public class Populator implements CommandLineRunner{
         Fish haddock = new Fish("haddock", "description");
         fishRepo.save(haddock);
         fish opah = new Fish("Opah", "description");
-
 
     }
 }
