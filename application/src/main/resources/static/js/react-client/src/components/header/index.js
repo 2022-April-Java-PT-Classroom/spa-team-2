@@ -16,6 +16,7 @@ const Header = () => {
                 <NavLink to={'/about'}>About </NavLink>
                 <NavLink to={'/mystery'}>Mysteries </NavLink>
                 <NavLink to={'/contact'}> Contact</NavLink>
+                {/* <NavLink to={'/comment'}> Review/Comment</NavLink> */}
             </ul>
             </div>
             </div>

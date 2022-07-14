@@ -20,7 +20,7 @@ const Mystery = () => {
             </div>
             <div className={style.section4}>
                 <h2>Explorer</h2>
-                <a href='https://nasa.gov/' target="_blank"><img src={spaceImage3} alt='space image' /></a> 
+                <a href='https://nasa.gov/' target="_blank" rel="noreferrer"><img src={spaceImage3} alt='space image' /></a> 
             </div>
             <div className={style.section5}>
                 
