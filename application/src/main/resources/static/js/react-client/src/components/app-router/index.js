@@ -11,6 +11,7 @@ import Mystery from '../../pages/mystery-educator';
 // import SolarSystem from '../../pages/solar-system';
 
 import React from 'react';
+import Email from '../../pages/email-us';
 
 // import About from '../../pages/about-us';
 
@@ -27,6 +28,7 @@ const AppRouter = () => {
             {/* <Route exact path={'/solar-system'} component={SolarSystem} /> */}
             <Route exact path={'/mystery'} component={Mystery} />
             <Route exact path={'/jac'} component={Jac} />
+            <Route exact path={'/email-us'} component={Email} />
             {/* <Route exact path={'/about-us'} component={About} /> */}
             <Route exact path={'/games'} component={Game} />
 
