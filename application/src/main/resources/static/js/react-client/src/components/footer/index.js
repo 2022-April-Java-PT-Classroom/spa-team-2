@@ -4,18 +4,16 @@ import style from './style.module.scss';
 const Footer = () => {
     return (
         <div className={style.footer}>
-            <div class="email">
+            <div className={style.msgform} >
             <form action="#">
-                <div class="email">
-                    <div class="text">Email *</div>
-                    <input type="email" required/>
-                </div>
-                <div className={style.msg}>
+                <div>
+                    <div >Contact Us</div>
+                    <div>Email *</div>
+                    <input type="email" placeholder="Email Here"required/>
                     <div class="text">Message *</div>
-                    <input type="email" required/>
-                    <textarea rows="1" cols="15" required></textarea>
+                    <input type="message" placeholder="Message Here" required/>
                 </div>
-                <div class="btn">
+                <div>
                     <button type='send'>Send</button>
                 </div>
             </form>
