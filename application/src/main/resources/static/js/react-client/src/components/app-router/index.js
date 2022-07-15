@@ -1,11 +1,15 @@
 import { Route, Switch } from 'react-router-dom';
 
-import AboutPage from '../../pages/about-us';
+
 import CommentScreen from '../../pages/comment';
 import Fish from '../../pages/fish';
+import Game from '../../pages/games';
 import HomeScreen from '../../pages/home-screen';
 import Jac from '../../pages/jac';
+// import About from '../../pages/about-us';
 import Mystery from '../../pages/mystery-educator';
+// import SolarSystem from '../../pages/solar-system';
+
 import React from 'react';
 
 // import About from '../../pages/about-us';
@@ -23,7 +27,9 @@ const AppRouter = () => {
             {/* <Route exact path={'/solar-system'} component={SolarSystem} /> */}
             <Route exact path={'/mystery'} component={Mystery} />
             <Route exact path={'/jac'} component={Jac} />
-            <Route exact path={'/about'} component={AboutPage} />
+            {/* <Route exact path={'/about-us'} component={About} /> */}
+            <Route exact path={'/games'} component={Game} />
+
         </Switch>
     );
 }
