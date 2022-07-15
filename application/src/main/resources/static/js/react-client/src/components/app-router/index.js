@@ -1,13 +1,23 @@
 import { Route, Switch } from 'react-router-dom';
-import Jac from '../../pages/jac';
+
+
 import CommentScreen from '../../pages/comment';
+import Fish from '../../pages/fish';
+import Game from '../../pages/games';
 import HomeScreen from '../../pages/home-screen';
+import Jac from '../../pages/jac';
 // import About from '../../pages/about-us';
 import Mystery from '../../pages/mystery-educator';
-import Fish from '../../pages/fish';
 // import SolarSystem from '../../pages/solar-system';
+
 import React from 'react';
 import Email from '../../pages/email-us';
+
+// import About from '../../pages/about-us';
+
+
+// import SolarSystem from '../../pages/solar-system';
+
 
 const AppRouter = () => {
     return (
@@ -20,7 +30,8 @@ const AppRouter = () => {
             <Route exact path={'/jac'} component={Jac} />
             <Route exact path={'/email-us'} component={Email} />
             {/* <Route exact path={'/about-us'} component={About} /> */}
-            
+            <Route exact path={'/games'} component={Game} />
+
         </Switch>
     );
 }
