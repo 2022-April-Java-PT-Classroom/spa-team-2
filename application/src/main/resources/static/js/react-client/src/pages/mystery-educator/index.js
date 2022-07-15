@@ -31,8 +31,9 @@ const Mystery = () => {
                 <img src={choiceImage1} alt='finger image' /> 
             </div>
             <div className={style.section2}>
-                <h2>Type of fish</h2>
-                <a href='https://www.fishwatch.gov/' target="_blank"><img src={spaceImage1} alt='fish image' /></a>
+                    <h2>Type of fish</h2>
+                     <a href='fish' target="_blank"><img  src={spaceImage1} alt='fish image' /></a>
+                {/* <a href='https://www.fishwatch.gov/' target="_blank"><img src={spaceImage1} alt='fish image' /></a> */}
             </div>
             <div className={style.section3}>
                 <h2>Go fishing</h2>
