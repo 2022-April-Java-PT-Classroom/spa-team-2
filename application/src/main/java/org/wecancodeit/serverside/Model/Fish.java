@@ -1,4 +1,4 @@
-package org.wecancodeit.serverside;
+package org.wecancodeit.serverside.Model;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
