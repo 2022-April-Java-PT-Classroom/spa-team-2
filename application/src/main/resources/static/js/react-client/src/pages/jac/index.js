@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import jacImage from '../../assets/jac.jpg';
+import jacbackground from '../../assets/jac-bg.jpeg';
 
                
 const Jac = () => {
