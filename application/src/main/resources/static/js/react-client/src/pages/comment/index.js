@@ -1,22 +1,51 @@
-import React from 'react';
-// import phoneIcon from '../../assets/contact.png';
+import React, { useState} from 'react';
 import style from './style.module.scss';
 
 const CommentScreen = () => {
+    const [name, setName] = useState("");
+    const [message, setMessage] = useState("");
+    const [list, setList] = useState([]);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(name,message)
+        const data = { name,message}
+        if (name && message) {
+            setList((ls) => [...ls, data])
+            setName("")
+            setMessage("")
+        }
+    }
     return (
         <div className={style.comment}>
-            <label>Review Box</label>
-            <form>
-                <textarea placeholder='Leave a review here please!' rows="10" cols="50" required></textarea>
-                <button type='submit'>Submit</button>
+            <h1>Review Section</h1>
+            <form onSubmit={handleSubmit}>
                 
-            </form>
-
-
-            {/* <h2><img src={phoneIcon} alt='phone icon' />Contact Us Today!</h2>
-            <h4>(555) 555-5555</h4>
-            <br></br>
-            <h3>Comment<textarea rows={10} cols={30} placeholder='Leave a comment here with your Name and contact please!'></textarea></h3> */}
+                <p>
+                    <textarea name="name" placeholder='Your name here' value={name} required onChange={(e) => setName(e.target.value)}>   
+                    </textarea>
+                </p>
+                    <textarea name="message" placeholder='Your message here' value={message} required onChange={(e) => setMessage(e.target.value)}  cols={50} rows={10}>
+                    </textarea>
+                
+                    <button>Submit</button>
+                    
+            </form>    
+            {
+                list.map((a) => <div>
+                    <table border={2}>
+                        <tr>
+                            <th>Name</th>
+                            <th>Message</th>
+                        </tr>
+                        <tr>
+                            <td>{a.name}</td>
+                            <td>{a.message}</td>
+                        </tr>
+                       <br></br>
+                    </table>
+                    </div>)
+         }   
            
         </div>
     );

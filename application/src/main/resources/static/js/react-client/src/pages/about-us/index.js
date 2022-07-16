@@ -1,3 +1,7 @@
+
+import React from 'react';
+import style from './style.module.scss';
+
 import React, { useState } from 'react';
 
 import PP from '../../assets/PP.png';
@@ -54,3 +58,4 @@ const AboutPage = () => {
     );
 }
 export default AboutPage;
+
