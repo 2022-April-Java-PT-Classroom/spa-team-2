@@ -8,11 +8,15 @@ import HomeScreen from '../../pages/home-screen';
 import Jac from '../../pages/jac';
 // import About from '../../pages/about-us';
 import Mystery from '../../pages/mystery-educator';
+
+import PageNotFound from "../../pages/PageNotFound";
+
 import Fishing from '../../pages/fishingame';
 import SolarSystem from '../../pages/solar-system';
 import MySpace from '../../pages/myspace';
 
 // import SolarSystem from '../../pages/solar-system';
+
 
 
 import React from 'react';
@@ -22,6 +26,9 @@ import Email from '../../pages/email-us';
 
 
 // import SolarSystem from '../../pages/solar-system';
+
+
+// import SolarSystem from import'../../pages/solar-system';
 
 
 const AppRouter = () => {
@@ -39,6 +46,10 @@ const AppRouter = () => {
             <Route exact path={'/myspace'} component={MySpace} />
             {/* <Route exact path={'/about-us'} component={About} /> */}
             <Route exact path={'/games'} component={Game} />
+
+            <Route component={PageNotFound} />
+
+
 
         </Switch>
     );
