@@ -1,9 +1,9 @@
 .fish {
     // background-image: url("fishbackground.jpg");
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     background-size: cover;
     margin: 1rem auto;
-    max-width: 100rem;
+    
     width: 90%;
     box-shadow: 10px 10px;
     border:darkblue 5px solid;
@@ -12,4 +12,21 @@
 .fishWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: center;
+    
+}
+
+.section {
+    border:darkblue 5px solid;
+}
+
+
+.fishImage{
+    width: 50px;
+}
+
+
+.buttonFish{
+    text-align: center;
+    width: 100%;
 }

@@ -1,33 +1,46 @@
-// .homeScreen {
-//     background-color: rgb(160, 236, 237);
-//     background-image: url("assets/bg.jpg");
-//     position: relative;  
-//     height: 800px;
-//     margin: 2rem auto;
-//     max-width: 1000px;
-//     padding: 20px;
-
+.mystere {
     
-// }
-
+    position: relative;  
+    height: 680px; 
+    width: 1000px;
+    margin-bottom: 20px;
+    
+}
 
 .container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 1fr 1/2fr 100px;
     
-    gap: 30px;
-    padding: 5px;
+    gap: 10px;
+    // padding: 5px;
     align-items: center;
     position: relative;
     box-sizing: border-box;
+    margin-top: 0;
+}
+.section6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(46, 37, 118);
+    border-radius: 10px;
 }
 .section1{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: rgb(155, 93, 13);
+    background-color: rgb(46, 37, 118);
+    border-radius: 10px;
+}
+.section2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(34, 222, 235);
     border-radius: 10px;
 }
 .section4{
@@ -35,7 +48,7 @@
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: rgb(155, 93, 13);
+    background-color: rgb(46, 37, 118);
     border-radius: 10px;
 }
 .section5{
@@ -49,6 +62,7 @@
 h1, h2{
     text-align: center;
     background-color: aliceblue;
+    font-family: Lucida Handwriting;
 }
 h4{
     text-align: center;
@@ -56,19 +70,14 @@ h4{
     
 }
 
-.section2{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-color: rgb(155, 93, 13);
-    border-radius: 10px;
-}
+
 .section3{
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: rgb(155, 93, 13);
+    background-color:  rgb(34, 222, 235);
     border-radius: 10px;
 }
+
+

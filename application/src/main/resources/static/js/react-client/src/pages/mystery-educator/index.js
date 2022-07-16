@@ -15,12 +15,12 @@ const Mystery = () => {
         <div className={style.container}>
             
             <div className={style.section1}>
-                <h2>My space</h2>
-                <a href='https://spaceplace.nasa.gov/menu/play/' target="_blank"><img src={spaceImage} alt='space image' /></a> 
+                    <h2>My space</h2>
+                <a href='myspace' target="_blank"><img src={spaceImage} alt='space image' /></a> 
             </div>
             <div className={style.section4}>
                 <h2>Explorer</h2>
-                <a href='https://nasa.gov/' target="_blank" rel="noreferrer"><img src={spaceImage3} alt='space image' /></a> 
+                <a href='solar-system' target="_blank" alt='solar-system'><img src={spaceImage3} alt='space image' /></a> 
             </div>
             <div className={style.section5}>
                 
@@ -31,12 +31,12 @@ const Mystery = () => {
                 <img src={choiceImage1} alt='finger image' /> 
             </div>
             <div className={style.section2}>
-                <h2>Type of fish</h2>
-                <a href='https://www.fishwatch.gov/' target="_blank"><img src={spaceImage1} alt='fish image' /></a>
+                    <h2>Type of fish</h2>
+                     <a href='fish' target="_blank"><img  src={spaceImage1} alt='fish image' /></a>
             </div>
             <div className={style.section3}>
                 <h2>Go fishing</h2>
-                <a href='https://www.fishwatch.gov/profiles/southeast-profiles'><img src={spaceImage2} alt='fish image' /></a>
+                <a href='fishingame' target="_blank"><img src={spaceImage2} alt='fish image' /></a>
             </div>
             </div>
         </div>
