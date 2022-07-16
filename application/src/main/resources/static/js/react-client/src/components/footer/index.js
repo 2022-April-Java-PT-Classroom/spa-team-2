@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './style.module.scss';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -10,8 +11,7 @@ const Footer = () => {
             </div>
             <div>
                 <ul className={style.socialList}>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
+                    <li><NavLink to={'/comment'}>Comment</NavLink></li>
                     
                     <li><a href="email-us">Email</a></li>
                 </ul>    
