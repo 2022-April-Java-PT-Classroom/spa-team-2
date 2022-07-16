@@ -12,11 +12,21 @@
 .fishWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: center;
+    
 }
+
+.section {
+    border:darkblue 5px solid;
+}
+
 
 .fishImage{
     width: 50px;
 }
+
+
 .buttonFish{
+    text-align: center;
     width: 100%;
 }

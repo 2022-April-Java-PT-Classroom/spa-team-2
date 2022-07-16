@@ -8,7 +8,7 @@ import bluefishImage from '../../assets/bluefish.png';
 import haddockImage from '../../assets/haddock.png';
 import cobiaImage from '../../assets/cobia.png';
 import spaceImage1 from '../../assets/fish.jpg';
-
+import fishbackground from '../../assets/fishbackground.jpg';
 const Fish = () => {
     return (
         <div  className={style.fish}>
@@ -18,33 +18,33 @@ const Fish = () => {
                 <h3>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
             </div>
             <div className={style.fishWrapper}>
-                <div className={style.section2}>
+                <div className={style.section}>
                     <h2>Atlantic Salmon</h2>
                     <img className={style.fishImage} src={salmonImage} alt='salmon image' />
                     <p>Information about atlantic salmon from FishWatch</p> 
                 </div>
-                <div className={style.section3}>  
+                <div className={style.section}>  
                     <h2>Bluefish</h2>
                     <img className={style.fishImage} src={bluefishImage} alt='bluefish image' /> 
                     <p>Information about bluefish from FishWatch</p>
                 </div>
-                <div className={style.section4}>
+                <div className={style.section}>
                     <h2>Cobia</h2>
                     <img className={style.fishImage} src={cobiaImage} alt='cobia image' /> 
                     <p>Information about cobia from Fishwatch</p>
                 </div>
-                <div className={style.section5}>
+                <div className={style.section}>
                     <h2>Haddock</h2>
                     <img className={style.fishImage} src={haddockImage} alt='haddock image' /> 
                     <p>Information about haddock from FishWatch</p>
                 </div>
-                <div className={style.section6}>
+                <div className={style.section}>
                     <h2>Opah</h2>
                     <img className={style.fishImage} src={opahImage} alt='opah image' /> 
                     <p>Information about opah from FishWatch</p>
                 </div>
             </div>
-            <div>
+            <div className={style.button}>
                 <button className={style.buttonFish}><a href='https://www.fishwatch.gov/profiles/southeast-profiles' target="_blank">Click Here For More Info</a> </button>
             </div>
         </div>
