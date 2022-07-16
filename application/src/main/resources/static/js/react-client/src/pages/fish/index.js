@@ -8,7 +8,7 @@ import bluefishImage from '../../assets/bluefish.png';
 import haddockImage from '../../assets/haddock.png';
 import cobiaImage from '../../assets/cobia.png';
 import spaceImage1 from '../../assets/fish.jpg';
-
+import fishbackground from '../../assets/fishbackground.jpg';
 const Fish = () => {
     return (
         <div  className={style.fish}>
@@ -44,7 +44,7 @@ const Fish = () => {
                     <p>Information about opah from FishWatch</p>
                 </div>
             </div>
-            <div>
+            <div className={style.button}>
                 <button className={style.buttonFish}><a href='https://www.fishwatch.gov/profiles/southeast-profiles' target="_blank">Click Here For More Info</a> </button>
             </div>
         </div>
