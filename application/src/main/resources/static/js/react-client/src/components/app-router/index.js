@@ -7,8 +7,11 @@ import HomeScreen from '../../pages/home-screen';
 import Jac from '../../pages/jac';
 // import About from '../../pages/about-us';
 import Mystery from '../../pages/mystery-educator';
-// import SolarSystem from '../../pages/solar-system';
+import PageNotFound from "../../pages/PageNotFound";
 import React from 'react';
+
+// import SolarSystem from import'../../pages/solar-system';
+
 
 const AppRouter = () => {
     return (
@@ -21,6 +24,7 @@ const AppRouter = () => {
             <Route exact path={'/jac'} component={Jac} />
             {/* <Route exact path={'/about-us'} component={About} /> */}
             <Route exact path={'/games'} component={Game} />
+            <Route component={PageNotFound} />
         </Switch>
     );
 }
