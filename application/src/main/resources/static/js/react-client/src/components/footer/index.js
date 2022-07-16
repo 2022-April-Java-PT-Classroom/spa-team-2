@@ -6,6 +6,7 @@ const Footer = () => {
     return (
 
         <div className={style.footer}>
+
             <div>
                 <small> &copy; team3 2022</small>
             </div>
@@ -16,9 +17,7 @@ const Footer = () => {
                     <li><a href="email-us">Email</a></li>
                 </ul>    
             </div>
-                
-             
-            
+
         </div>
 
         
