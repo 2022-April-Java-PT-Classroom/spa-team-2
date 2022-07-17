@@ -1,26 +1,24 @@
 import { Route, Switch } from 'react-router-dom';
 
-
 import CommentScreen from '../../pages/comment';
+import Email from '../../pages/email-us';
+import FAQ from '../../pages/faq';
 import Fish from '../../pages/fish';
+import Fishing from '../../pages/fishingame';
 import Game from '../../pages/games';
 import HomeScreen from '../../pages/home-screen';
 import Jac from '../../pages/jac';
+import MySpace from '../../pages/myspace';
 // import About from '../../pages/about-us';
 import Mystery from '../../pages/mystery-educator';
-
 import PageNotFound from "../../pages/PageNotFound";
-
-import Fishing from '../../pages/fishingame';
+import React from 'react';
 import SolarSystem from '../../pages/solar-system';
-import MySpace from '../../pages/myspace';
 
 // import SolarSystem from '../../pages/solar-system';
 
 
 
-import React from 'react';
-import Email from '../../pages/email-us';
 
 // import About from '../../pages/about-us';
 
@@ -45,8 +43,8 @@ const AppRouter = () => {
             <Route exact path={'/solar-system'} component={SolarSystem} />
             <Route exact path={'/myspace'} component={MySpace} />
             {/* <Route exact path={'/about-us'} component={About} /> */}
-            <Route exact path={'/games'} component={Game} />
-
+            {/* <Route exact path={'/games'} component={Game} /> */}
+            <Route exact path={'/faq'} component={FAQ} />
             <Route component={PageNotFound} />
 
 

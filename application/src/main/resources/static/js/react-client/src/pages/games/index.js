@@ -84,34 +84,7 @@ const Game = () => {
     }
 
     function dragEnd(){
-        if(!otherTitle.src.includes("3.jpg")){
-            return;
-        }
-        let currCoords = currTitle.className.split("-");
-        let r = parseInt(currCoords[0]);
-        let c = parseInt(currCoords[1]);
-        let otherCoords = otherTitle.split("-");
-        let r2 = parseInt(otherCoords[0]);
-        let c2 = parseInt(otherCoords[1]);
-
-        let moveLeft = r == r2 && c2 == c-1;
-        let moveRight = r == r2 && c2 == c+1;
-
-        let moveUp = c == c2 && r2 == r-1;
-        let moveDown = c == c2 && r2 == r+1;
-        
-        let isAdjacent = moveLeft || moveRight || moveUp ||  moveDown;
-        
-        if(isAdjacent){
-       let currImg = currTitle.src;
-       let otherImg = otherTitle.src;
-       
-       currTitle.src = otherImg;
-       otherTitle.src = currImg;
-       
-       turns += 1;
-       document.getElementsByClassName("turns").innerText =  turns;
-     }
+    
        
     }
 
