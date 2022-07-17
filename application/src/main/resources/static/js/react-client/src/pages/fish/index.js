@@ -15,7 +15,7 @@ const Fish = () => {
         
             <div className={style.title}>
                 <h1>Come explore the oceans!</h1>
-                <h2>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h2>
+                <h3>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
             </div>
             <div className={style.fishWrapper}>
                 <div className={style.section}>
