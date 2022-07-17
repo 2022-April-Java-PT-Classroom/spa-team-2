@@ -17,17 +17,17 @@ public class FishController {
 
     private FishRepository fishRepo;
 
-    @GetMapping("/api/add-fish")
+    @GetMapping("/api/fish")
     public Collection<Fish>getFish(){
         return (Collection<Fish>) fishRepo.findAll();
 
     }
 
-    @PostMapping("/api/fishes/get-fish")
+    @PostMapping("/api/fishes")
 
     public Collection<Fish>addFish(@RequestBody String body) throws JSONException {
         JSONObject newFish = new JSONObject(body);
-        String fishName = newFish.getString("name");
+        String addFishName = newFish.getString("name");
 //        boolean fishIsSelected = newFish.getBoolean("isSelected");
 //            Fish fishToAdd = new Fish(fishName,fishIsSelected)
 
@@ -40,4 +40,4 @@ public class FishController {
 //        boolean fishIsSelected
 //    }
 
-    }
+}
