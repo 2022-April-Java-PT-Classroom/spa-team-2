@@ -1,10 +1,11 @@
 .fish {
-    // background-image: url("fishbackground.jpg");
-    // background-repeat: no-repeat;
+    background-image: url("../../assets/fishbackground.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     margin: 1rem auto;
     
-    width: 90%;
+    
+    width: 100%;
     box-shadow: 10px 10px;
     border:darkblue 5px solid;
 }
@@ -16,13 +17,27 @@
     
 }
 
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    background-color: white;
+}
+
 .section {
     border:darkblue 5px solid;
 }
 
 
 .fishImage{
-    width: 50px;
+    width: 150px;
 }
 
 
