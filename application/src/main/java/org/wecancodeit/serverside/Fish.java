@@ -1,8 +1,10 @@
 package org.wecancodeit.serverside;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+@Entity
 public class Fish {
 
     @Id
@@ -17,7 +19,7 @@ public class Fish {
 
     }
 
-    public Long getId() {return id;}
+    public Long   getId() {return id;}
     public String getName() {return name;}
     public String getLocation() {return location;}
     public String getBiology() {return biology;}
