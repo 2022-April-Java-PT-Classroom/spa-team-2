@@ -1,6 +1,11 @@
 package org.wecancodeit.serverside;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import org.wecancodeit.serverside.Model.Fish;
+import org.wecancodeit.serverside.Model.Planet;
+import org.wecancodeit.serverside.Repository.FishRepository;
+import org.wecancodeit.serverside.Repository.PlanetRepository;
+
 import javax.annotation.Resource;
 
 @Component
@@ -8,6 +13,8 @@ public class Populator implements CommandLineRunner{
 
     @Resource
     private FishRepository fishRepo;
+     @Resource
+    private PlanetRepository planetRepo;
 
     @Override
     public void run(String... args) throws Exception {
@@ -20,5 +27,17 @@ public class Populator implements CommandLineRunner{
         Fish haddock = new Fish("Haddock", "Haddock are found on both sides of the North Atlantic. In the western North Atlantic, they’re found from Newfoundland to Cape May, New Jersey, and are most abundant on Georges Bank and in the Gulf of Maine.", "Haddock are a fast-growing species that typically range between 1 and 3 feet long at maturity. They generally weigh between 2 and 7 pounds. Haddock begin to reproduce between the ages of 1 and 4 years old and at 10.5 to 11.7 inches long.", "Haddock are a member of the cod family, but they are smaller than Atlantic cod. They can be distinguished by a black “thumbprint” found on each side of their body.");
         fishRepo.save(haddock);
         Fish opah = new Fish("Opah", "Opah are found in tropical and temperate waters all around the world", "Because opah are not a major commercial seafood species and they live in the deep ocean, scientists know very little about their biology and ecology.", "Opah are an unusual looking fish—they have a round, flat body that’s silvery gray in color. Toward the belly, the silver shades to a rose red, dotted with white spots.");
+
+        Planet mars = new Planet("Mars", "Red planet", "oblate spheroid");
+        planetRepo.save(mars);
+        Planet jupiter = new Planet("Jupiter", " The Biggest planet in the Solar System", "Oblate spheroid");
+        planetRepo.save(jupiter);
+        Planet mercury = new Planet("Mercury", " The smallest planet in the Solar System", "Sphere");
+        planetRepo.save(mercury);
+        Planet earth = new Planet("Earth", "Only living planet","Spherical");
+        planetRepo.save(earth);
+        Planet saturn = new Planet("Saturn", "Second largest planet in the Solar System", " Oblate spheroid");
+        planetRepo.save(saturn);
+
     }
 }

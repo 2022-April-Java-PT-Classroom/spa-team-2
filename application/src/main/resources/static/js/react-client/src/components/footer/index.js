@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
-
+        <div className={style.footer__wrapper}>
         <div className={style.footer}>
 
             <div>
@@ -18,6 +18,7 @@ const Footer = () => {
                 </ul>    
             </div>
 
+        </div>
         </div>
 
         

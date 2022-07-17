@@ -1,13 +1,8 @@
 
-import React from 'react';
 import style from './style.module.scss';
-
 import React, { useState } from 'react';
-
 import PP from '../../assets/PP.png';
 import axios from 'axios';
-import style from './style.module.scss';
-
 const AboutPage = () => {
     return (
         <div className={style.about}>
