@@ -13,6 +13,7 @@ public class Fish {
     private String biology;
     private String physicalDescription;
 
+
     public Fish(){
 
     }
@@ -22,6 +23,9 @@ public class Fish {
     public String getLocation() {return location;}
     public String getBiology() {return biology;}
     public String getPhysicalDescription() {return physicalDescription;}
+
+
+
 
     public Fish(String name, String location, String biology, String physicalDescription) {
         this.name = name;
