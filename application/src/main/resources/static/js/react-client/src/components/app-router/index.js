@@ -1,26 +1,34 @@
 import { Route, Switch } from 'react-router-dom';
 
-
+import AboutPage from '../../pages/about-us';
 import CommentScreen from '../../pages/comment';
+import Email from '../../pages/email-us';
 import Fish from '../../pages/fish';
+import Fishing from '../../pages/fishingame';
 import Game from '../../pages/games';
 import HomeScreen from '../../pages/home-screen';
 import Jac from '../../pages/jac';
-// import About from '../../pages/about-us';
-import Mystery from '../../pages/mystery-educator';
-
-import PageNotFound from "../../pages/PageNotFound";
-
-import Fishing from '../../pages/fishingame';
-import SolarSystem from '../../pages/solar-system';
 import MySpace from '../../pages/myspace';
+import Mystery from '../../pages/mystery-educator';
+import PageNotFound from "../../pages/PageNotFound";
+import React from 'react';
+import SolarSystem from '../../pages/solar-system';
+
+// import About from '../../pages/about-us';
+
+
+
+
+
+
+
 
 // import SolarSystem from '../../pages/solar-system';
 
 
 
-import React from 'react';
-import Email from '../../pages/email-us';
+
+
 
 // import About from '../../pages/about-us';
 
@@ -44,7 +52,7 @@ const AppRouter = () => {
             <Route exact path={'/email-us'} component={Email} />
             <Route exact path={'/solar-system'} component={SolarSystem} />
             <Route exact path={'/myspace'} component={MySpace} />
-            {/* <Route exact path={'/about-us'} component={About} /> */}
+            <Route exact path={'/about'} component={AboutPage} />
             <Route exact path={'/games'} component={Game} />
 
             <Route component={PageNotFound} />

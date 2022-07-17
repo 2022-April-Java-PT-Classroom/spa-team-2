@@ -20,8 +20,8 @@ p {
     color: white;
 }
 img {
-    max-width:100%;
-    height:auto;
+    height:500px;
+    width: 400px;
 }
 
 .section1{
@@ -30,8 +30,9 @@ img {
     background-color: rgb(125, 43, 150);
     border-radius: 20px;
     float: left;
-    padding: 20px;
+    padding: 50px;
     justify-items: center;
+    
 }
 
 .section2{
@@ -40,7 +41,7 @@ img {
     background-color: rgb(0, 165, 241);
     border-radius: 20px;
     float: left;
-    padding: 20px;
+    padding: 50px;
     justify-items: center;
 }
 
