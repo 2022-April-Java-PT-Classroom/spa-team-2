@@ -12,7 +12,7 @@ return (
             
             <div className={style.section1}>
                 <h2>Jac Enterprises</h2>
-                <a href='http://127.0.0.1:5500/index.html' target="_blank"><img src={jacImage} alt='jac image' /></a> 
+                <a href='jac.html' target="_blank"><img src={jacImage} alt='jac image' /></a> 
             </div>
       </div>
     </div>  
