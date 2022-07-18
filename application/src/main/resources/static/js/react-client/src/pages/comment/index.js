@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import style from './style.module.scss';
+import style from './comment.module.scss';
 
 const CommentScreen = () => {
     const [name, setName] = useState("");

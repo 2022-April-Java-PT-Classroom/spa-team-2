@@ -1,7 +1,7 @@
 
 
 
-import style from './style.module.scss';
+import style from './about.module.scss';
 import React, { useState } from 'react';
 import PP from '../../assets/PP.png';
 import axios from 'axios';

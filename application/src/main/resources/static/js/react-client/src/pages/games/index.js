@@ -9,7 +9,7 @@ import img6 from '../../assets/6.jpg';
 import img7 from '../../assets/7.jpg';
 import img8 from '../../assets/8.jpg';
 import solar from "../../assets/180bc0df5862bbbba10020eb45c320b4.jpeg";
-import style from './style.module.scss';
+import style from './game.module.scss';
 
 const Game = () => {
     return (
