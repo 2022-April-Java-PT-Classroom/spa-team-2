@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
-import jacImage from '../../assets/jac.jpg';
+import advButton from '../../assets/adventurebtn.jpg';
+import jacImage from '../../assets/jac.jpeg';
 import jacbackground from '../../assets/jac-bg.jpeg';
 
                
@@ -9,8 +10,14 @@ return (
        
    <div className={style.mystere}>
         <div className={style.container}>
-            
+
             <div className={style.section1}>
+                <h2>Jac's Daily Adventure</h2>
+                <a href='http://127.0.0.1:5500/index.html' target="_blank"><img src={advButton} width='500' alt='adv btn' /></a> 
+            </div>
+
+            
+            <div className={style.section2}>
                 <h2>Jac Enterprises</h2>
                 <a href='jac.html' target="_blank"><img src={jacImage} alt='jac image' /></a> 
             </div>

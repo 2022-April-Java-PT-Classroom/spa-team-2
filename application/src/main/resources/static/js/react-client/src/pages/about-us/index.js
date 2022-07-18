@@ -1,13 +1,18 @@
-import Dhana from '../../assets/Dhana.JPG';
-import Hailey from '../../assets/Hailey.JPG';
-import Mark from '../../assets/Mark.jpeg';
+
+// import Dhana from '../../assets/Dhana.JPG';
+// import Hailey from '../../assets/Hailey.JPG';
+// import Mark from '../../assets/Mark.jpeg';
+
+import style from './style.module.scss';
+import React, { useState } from 'react';
 import PP from '../../assets/PP.png';
 import React from 'react';
 import axios from 'axios';
-import farida from '../../assets/farida.png';
-import jimmy from '../../assets/jimmy.jfif';
-import style from './style.module.scss';
-import zach from '../../assets/zach.jpg';
+
+// import farida from '../../assets/farida.png';
+// import jimmy from '../../assets/jimmy.jfif';
+// import zach from '../../assets/zach.jpg';
+
 
 const AboutPage = () => {
     return (
