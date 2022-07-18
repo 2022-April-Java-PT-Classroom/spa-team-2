@@ -7,11 +7,25 @@ label{
     font-family: cursive;
 }
 .comment{
-   
+   background-image: url("../../assets/bgreview.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
     width: fit-content;
     margin-left: 20%;
 }
 table{
     background-color: aliceblue;
     width: max-content;
+}
+th, td{
+    word-spacing: 1px;
+    padding: 10px;
+}
+.table{
+
+}
+.result{
+    background-image: url(../../assets/bg2.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
 }

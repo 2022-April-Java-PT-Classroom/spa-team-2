@@ -1,6 +1,8 @@
 .emailus{
     background-color: rgb(127, 225, 255);
     position: relative;
+    width: fit-content;
+    margin-left: 30%;
 }
 .email{
     margin-top: 20px;
@@ -16,4 +18,10 @@ button{
     width: 100px;
     background-color: chartreuse;
     border-radius: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-left: 30%;
+    width: auto;
+    height: 20px;
 }

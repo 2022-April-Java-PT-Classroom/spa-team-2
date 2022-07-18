@@ -8,7 +8,7 @@ const CommentScreen = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(name,message)
+        // console.log(name,message)
         const data = { name,message}
         if (name && message) {
             setList((ls) => [...ls, data])
@@ -32,15 +32,17 @@ const CommentScreen = () => {
                     
             </form>    
             {
-                list.map((a) => <div>
-                    <table border={2}>
+                list.map((a) => <div className={style.result}>
+                    <table border={0} className={style.table}>
                         <tr>
-                            <th>Name</th>
-                            <th>Message</th>
+                            <th>Name|</th>
+                            <th>                 </th>
+                            <th>         |Message</th>
                         </tr>
                         <tr>
                             <td>{a.name}</td>
-                            <td>{a.message}</td>
+                            <td>                  </td>
+                            <td>           {a.message}</td>
                         </tr>
                        <br></br>
                     </table>
