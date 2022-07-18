@@ -18,7 +18,7 @@ const Fish = () => {
                 <h1>Come explore the oceans!</h1>
                 </div>
                 <div className={style.info}>
-                <h3>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
+                <h3 className={style.h3}>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
                 </div>
             </div>
             <div className={style.fishWrapper}>
