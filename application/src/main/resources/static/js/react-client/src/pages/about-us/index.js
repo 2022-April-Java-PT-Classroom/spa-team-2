@@ -1,7 +1,7 @@
 
 
 
-import style from './style.module.scss';
+import style from './about.module.scss';
 import React, { useState } from 'react';
 import PP from '../../assets/PP.png';
 import axios from 'axios';
@@ -26,10 +26,10 @@ const AboutPage = () => {
                 <div className={style.section1}>
                 <img className={style.img} src={Hailey} alt='PP' /> 
                 <h2 className={style.h2}>Hailey Fate</h2>
-                <p>Bio: Columbus, Ohio. A fast learner with strong time management and multi-tasking skills. Proficient troubleshooting and problem-solving skills. Love live music and the outdoors.</p>
+                <p>Columbus, Ohio. A fast learner with strong time management and multi-tasking skills. Proficient troubleshooting and problem-solving skills. Love live music and the outdoors.</p>
                 <img className={style.img} src={farida} alt='PP' />
                 <h2 className={style.h2}>Farida NDiaye</h2>
-                <p>Bio: Hello, I'm Farida. I live in Columbus, passionate about traveling and discovering. I love trying/learning new skills and taking on professional challenges.</p>
+                <p>Hello, I'm Farida. I live in Columbus, passionate about traveling and discovering. I love trying/learning new skills and taking on professional challenges.</p>
                 <img className={style.img} src={Dhana} alt='PP' />
                 <h2 className={style.h2}>Dhana P Acharya</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -48,7 +48,7 @@ const AboutPage = () => {
                  I always wanted to work with computers so when i found we can code it i got really excited and started my journy to become a Software developer!</p>
                 <img className={style.img} src={zach} alt='PP' />
                 <h2 className={style.h2}>Zach Martin</h2>
-                <p>Bio Zachary Martin is a Columbus-based full-stack software developer with a passion for travel, the outdoors,
+                <p>Zachary Martin is a Columbus-based full-stack software developer with a passion for travel, the outdoors,
                  gardening, and technology. His passion for technology started very early, when he took an interest in gaming and computers from there, 
                  his interest in hardware and software design grew. Though his passion was in technology, it was his love for the outdoors and interest in life science that drove him to pursue a Bachelors degree in Biology at Ohio University,
                  which he completed in 2009. Zach is enthusiastic about growing and gaining new skills as a software developer and is looking forward to a future in the field of IT!</p>

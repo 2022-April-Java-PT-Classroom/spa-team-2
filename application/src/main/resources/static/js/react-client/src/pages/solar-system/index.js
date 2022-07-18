@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.module.scss';
+import style from './space.module.scss';
 import solarImage from '../../assets/solar.png';
 
 const SolarSystem = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.module.scss';
+import style from './mystery.module.scss';
 import spaceImage from '../../assets/space.jpg';
 import spaceImage3 from '../../assets/space1.jpg';
 import spaceImage1 from '../../assets/fish.jpg';

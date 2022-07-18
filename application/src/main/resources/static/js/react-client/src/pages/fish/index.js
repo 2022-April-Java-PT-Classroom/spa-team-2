@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import style from './style.module.scss';
+import style from './fish.module.scss';
 import opahImage from '../../assets/opah.png';
 import salmonImage from '../../assets/salmon.png';
 import bluefishImage from '../../assets/bluefish.png';
