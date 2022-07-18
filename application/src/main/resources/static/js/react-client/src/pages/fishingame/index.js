@@ -1,5 +1,5 @@
 import React from "react";
-import style from './style.module.scss';
+import style from './game.module.scss';
 
 const Fishing = () => {
     return (
