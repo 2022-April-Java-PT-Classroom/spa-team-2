@@ -23,18 +23,18 @@ const Mystery = () => {
                     <h2><a href='solar-system'>Explorer</a></h2>
                     <a href='solar-system' target="_blank" alt='solar-system'><img src={spaceImage3} alt='space image' /></a> 
                 </div>
+
                 <div className={style.section7}>
                     <h3>Choose Your adventure</h3>
                 </div>
-                <div className={style.section5}> 
-                   
+
+                <div className={style.section5}>                   
                     <h4><a href='myspace'>NASA SECTION</a>  </h4>
                     <img className={style.img1} src={choiceImage} alt='finger image' /> 
                 </div>
                 
-                <div className={style.section6}>
-                    
-                    <h4><a href='fish'>OCEAN TREASURES</a> </h4>
+                <div className={style.section6}>                  
+                  <h4><a href='fish'>OCEAN TREASURES</a> </h4>
                     <img className={style.img1} src={choiceImage1} alt='finger image' /> 
                 </div>
                     
