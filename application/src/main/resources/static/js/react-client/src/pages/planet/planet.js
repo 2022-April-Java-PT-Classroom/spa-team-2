@@ -64,7 +64,10 @@ const Planet = () => {
                     </div>
                     <img className={style.planetImage} src={jupiterImage} alt='jupiter image' />
                     <div className={style.info}>
-                        <p>Information about the Jupiter from NASA</p>+
+
+                        <p>Information about the Jupiter from NASA</p>
+               <p>Information about the Jupiter from NASA</p>
+
                     </div>
                 </div>
                 <div className={style.section}>

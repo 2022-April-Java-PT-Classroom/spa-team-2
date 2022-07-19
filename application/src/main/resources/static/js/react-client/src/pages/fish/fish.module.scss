@@ -11,6 +11,7 @@
     p {
         background-color: white;
         color: black;
+        border:darkblue 5px solid;
     }
 
     .fishWrapper {
@@ -19,6 +20,83 @@
         text-align: center;
         
     }
+    
+    .head {
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe{
+        border:darkblue 5px solid; 
+    }
+    
+    .info {
+        flex-direction: column;
+        margin-left:20px;
+        margin-right:20px;
+        
+    }
+    
+    
+    
+    .sections {
+        border:darkblue 5px solid;
+    }
+    
+    
+    .fishImage{
+        width: 300px;
+    }
+    
+    
+    .button{
+        text-align: center;  
+        background-color: aqua;
+        border:darkblue 5px solid; 
+    }
+
+    .buttonFish {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border:darkblue 5px solid; 
+        background-color: rgb(199, 223, 250);
+    }
+
+    .buttonFish:hover {
+        background-color: rgb(95, 202, 202);
+        transition:1s;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        padding:10px;
+        border-radius: 20px;
+        border:darkblue 5px solid;
+    }
+
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        padding:10px;
+        border-radius: 20px;
+        background-color: white;
+        border:darkblue 5px solid;
+        color: black;
+    }
+    
+    h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: black;
+        padding:10px;
+        border-radius: 20px;
+        background-color: rgb(140, 236, 228);
+        border:darkblue 5px solid;
+    }
+    
+    
     
     .head {
         display: flex;
@@ -30,23 +108,15 @@
         justify-content: center;
     }
     
-    
-    
-    .sections {
-        border:darkblue 5px solid;
+    p {
+        background-color: rgb(140, 236, 228);
+        border-radius: 20px;
+        padding:20px;
+        font-weight: bold;
+        font-size: 18px;
     }
+     
     
-    
-    .fishImage{
-        width: 150px;
-    }
-    
-    
-    .buttonFish{
-        text-align: center;
-        width: 100%;
-    }
-
 
 }
 

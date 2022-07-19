@@ -19,13 +19,15 @@ const Fish = () => {
 
     return (
         <div className={style.fish}>
+            
 
             <div className={style.title}>
                 <div className={style.head}>
                     <h1>Come explore the oceans!</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r9PeYPHdpNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className={style.info}>
-                    <h3>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
+                <h3 className={style.h3}>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
                 </div>
             </div>
             <div className={style.fishWrapper}>
@@ -42,6 +44,7 @@ const Fish = () => {
                         </div>
                     </div>
                 )}
+                
             </div>
             <div className={style.button}>
                 <button className={style.buttonFish}><a href='https://www.fishwatch.gov/profiles/southeast-profiles' target="_blank">Click Here For More Info</a> </button>
