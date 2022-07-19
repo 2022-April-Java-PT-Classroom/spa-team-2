@@ -8,13 +8,46 @@
     width: 100%;
     box-shadow: 10px 10px;
     border:darkblue 5px solid;
-}
+    p {
+        background-color: white;
+        color: black;
+    }
 
-.fishWrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
+    .fishWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        
+    }
     
+    .head {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .sections {
+        border:darkblue 5px solid;
+    }
+    
+    
+    .fishImage{
+        width: 150px;
+    }
+    
+    
+    .buttonFish{
+        text-align: center;
+        width: 100%;
+    }
+
+
 }
 
 .h3{
