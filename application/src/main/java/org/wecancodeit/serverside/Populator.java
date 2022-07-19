@@ -29,15 +29,15 @@ public class Populator implements CommandLineRunner{
         Fish opah = new Fish("Opah", "Opah are found in tropical and temperate waters all around the world", "Because opah are not a major commercial seafood species and they live in the deep ocean, scientists know very little about their biology and ecology.", "Opah are an unusual looking fish—they have a round, flat body that’s silvery gray in color. Toward the belly, the silver shades to a rose red, dotted with white spots.", "fish-images/opah.png");
         fishRepo.save(opah);
 
-        Planet mars = new Planet("Mars", "Red planet", "oblate spheroid");
+        Planet mars = new Planet("Mars", "Red planet", "oblate spheroid","planet-image/mars.jpg");
         planetRepo.save(mars);
-        Planet jupiter = new Planet("Jupiter", " The Biggest planet in the Solar System", "Oblate spheroid");
+        Planet jupiter = new Planet("Jupiter", " The Biggest planet in the Solar System", "Oblate spheroid", "planet-image/jupiter.jpg");
         planetRepo.save(jupiter);
-        Planet mercury = new Planet("Mercury", " The smallest planet in the Solar System", "Sphere");
+        Planet mercury = new Planet("Mercury", " The smallest planet in the Solar System", "Sphere","planet-image/mercury.jpg");
         planetRepo.save(mercury);
-        Planet earth = new Planet("Earth", "Only living planet","Spherical");
+        Planet earth = new Planet("Earth", "Only living planet","Spherical","planet-image/earth.jpg");
         planetRepo.save(earth);
-        Planet saturn = new Planet("Saturn", "Second largest planet in the Solar System", " Oblate spheroid");
+        Planet saturn = new Planet("Saturn", "Second largest planet in the Solar System", " Oblate spheroid","planet-image/saturn.jpg");
         planetRepo.save(saturn);
 
     }

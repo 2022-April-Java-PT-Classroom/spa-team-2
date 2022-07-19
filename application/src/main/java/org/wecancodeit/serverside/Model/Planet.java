@@ -17,6 +17,7 @@ public class Planet {
 
     private String description;
     private String shape;
+    private  String image;
 
     public Long getId() {
         return id;
@@ -34,27 +35,19 @@ public class Planet {
         return shape;
     }
 
+    public String getImage() {
+        return image;
+    }
+
     public Planet() {
 
     }
 
-
-    public Planet(String name, String description, String shape) {
+    public Planet(String name, String description, String shape,String image) {
         this.name = name;
         this.description = description;
         this.shape = shape;
+        this.image = image;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Planet)) return false;
-        Planet planet = (Planet) o;
-        return getId().equals(planet.getId());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId());
-    }
 }
