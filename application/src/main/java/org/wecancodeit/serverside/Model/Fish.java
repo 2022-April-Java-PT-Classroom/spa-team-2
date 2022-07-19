@@ -18,6 +18,7 @@ public class Fish {
     private String biology;
     @Lob
     private String physicalDescription;
+    private String image;
 
 
     public Fish(){
@@ -29,14 +30,18 @@ public class Fish {
     public String getLocation() {return location;}
     public String getBiology() {return biology;}
     public String getPhysicalDescription() {return physicalDescription;}
+    public String getImage(){
+        return image;
+    }
 
 
 
 
-    public Fish(String name, String location, String biology, String physicalDescription) {
+    public Fish(String name, String location, String biology, String physicalDescription, String image) {
         this.name = name;
         this.location = location;
         this.biology = biology;
         this.physicalDescription = physicalDescription;
+        this.image = image;
     }
 }
