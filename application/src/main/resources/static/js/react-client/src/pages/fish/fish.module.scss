@@ -50,3 +50,38 @@
 
 }
 
+.h3{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    background-color: white;
+}
+
+.section {
+    border:darkblue 5px solid;
+}
+
+
+.fishImage{
+    width: 150px;
+}
+
+
+.buttonFish{
+    text-align: center;
+    width: 100%;
+}
