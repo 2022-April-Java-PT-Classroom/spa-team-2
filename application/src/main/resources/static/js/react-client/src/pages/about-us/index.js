@@ -1,18 +1,14 @@
-
-
-
-import style from './about.module.scss';
 import React, { useState } from 'react';
-import PP from '../../assets/PP.png';
-import axios from 'axios';
 
-import farida from '../../assets/farida.png';
-import jimmy from '../../assets/jimmy.jfif';
-import zach from '../../assets/zach.jpg';
 import Dhana from '../../assets/Dhana.JPG';
 import Hailey from '../../assets/Hailey.JPG';
 import Mark from '../../assets/Mark.jpeg';
-
+import PP from '../../assets/PP.png';
+import axios from 'axios';
+import farida from '../../assets/farida.png';
+import jimmy from '../../assets/jimmy.jfif';
+import style from './about.module.scss';
+import zach from '../../assets/zach.jpg';
 
 const AboutPage = () => {
     return (
@@ -26,18 +22,25 @@ const AboutPage = () => {
                 <div className={style.section1}>
                 <img src={Hailey} alt='PP' /> 
                 <h2>Hailey Fate</h2>
-                <p>Bio: Columbus, Ohio. A fast learner with strong time management and multi-tasking skills. Proficient troubleshooting and problem-solving skills. Love live music and the outdoors.</p>
+                <p>Bio: Columbus, Ohio. A fast learner with strong time management and multi-tasking skills. 
+                    Proficient troubleshooting and problem-solving skills. Love live music and the outdoors.</p>
                 <img src={farida} alt='PP' />
                 <h2>Farida NDiaye</h2>
-                <p>Bio: Hello, I'm Farida. I live in Columbus, passionate about traveling and discovering. I love trying/learning new skills and taking on professional challenges.</p>
+                <p>Bio: Hello, I'm Farida. I live in Columbus, passionate about traveling and discovering. 
+                    I love trying/learning new skills and taking on professional challenges.</p>
                 <img src={Dhana} alt='PP' />
                 <h2>Dhana P Acharya</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. </p>
+                <p>Current Amazon Problem Solver , Process Guide, and Learning Ambassador  for problem solvers 
+                    and  Count Associates looking to further career in  IT field 
+                    by obtaining a role of a Front End Developer to make best use of the experiences and skills 
+                    that I gained through We CAN CODE IT, and Kenzie Academy.
+                    I am a passionate learner. Learning means fun to me. Learning anything new always enchants me.
+                    I love coding.
+                    Literally, I started coding from Zero,but my passion for coding dismantled 
+                    all the hinderances that 
+                    I came across.
+                    Honestly, getting into WCCI world of coding broadened my understanding for both Back-end and Front-end.
+                    Now, I can say that I am in better standing regarding coding and its implementation. </p>
                 </div>
 
                 <div className={style.section2}>
