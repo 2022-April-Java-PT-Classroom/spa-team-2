@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Dhana from '../../assets/Dhana.JPG';
 import Hailey from '../../assets/Hailey.JPG';
 import Mark from '../../assets/Mark.jpeg';
-import PP from '../../assets/PP.png';
 import axios from 'axios';
 import farida from '../../assets/farida.png';
 import jimmy from '../../assets/jimmy.jfif';
@@ -13,6 +12,9 @@ import zach from '../../assets/zach.jpg';
 const AboutPage = () => {
     return (
         <div className={style.about}>
+            <div style={{ 
+  backgroundImage: `url('../../assets/bg.jpg')` 
+}}></div>
             <h2 className={style.h2}>This is our about Page</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
