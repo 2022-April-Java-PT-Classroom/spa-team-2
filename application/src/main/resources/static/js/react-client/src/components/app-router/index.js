@@ -1,21 +1,20 @@
 import { Route, Switch } from 'react-router-dom';
 
+import AboutPage from '../../pages/about-us';
 import CommentScreen from '../../pages/comment';
 import Email from '../../pages/email-us';
 import FAQ from '../../pages/faq';
 import Fish from '../../pages/fish';
 import Fishing from '../../pages/fishingame';
-import Game from '../../pages/games';
+// import Game from '../../pages/games';
 import HomeScreen from '../../pages/home-screen';
 import Jac from '../../pages/jac';
-import AboutPage from '../../pages/about-us';
+import MySpace from '../../pages/myspace';
 import Mystery from '../../pages/mystery-educator';
 import PageNotFound from "../../pages/PageNotFound";
-import Fishing from '../../pages/fishingame';
-import SolarSystem from '../../pages/solar-system';
-import MySpace from '../../pages/myspace';
 import React from 'react';
-import Email from '../../pages/email-us';
+import Reviews from '../../pages/reviews';
+import SolarSystem from '../../pages/solar-system';
 
 const AppRouter = () => {
     return (
@@ -33,6 +32,7 @@ const AppRouter = () => {
             <Route exact path={'/myspace'} component={MySpace} />
             {/* <Route exact path={'/about-us'} component={About} /> */}
             {/* <Route exact path={'/games'} component={Game} /> */}
+            <Route exact path={'/reviews'} component={Reviews} />
             <Route exact path={'/faq'} component={FAQ} />
             <Route component={PageNotFound} />
 
