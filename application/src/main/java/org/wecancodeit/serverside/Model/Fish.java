@@ -3,6 +3,7 @@ package org.wecancodeit.serverside.Model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 
 @Entity
 public class Fish {
@@ -11,8 +12,11 @@ public class Fish {
     @GeneratedValue
     private Long id;
     private String name;
+    @Lob
     private String location;
+    @Lob
     private String biology;
+    @Lob
     private String physicalDescription;
 
 
