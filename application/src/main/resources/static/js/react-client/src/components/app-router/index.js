@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import AboutPage from '../../pages/about-us';
@@ -13,8 +12,8 @@ import Jac from '../../pages/jac';
 import MySpace from '../../pages/myspace';
 import Mystery from '../../pages/mystery-educator';
 import PageNotFound from "../../pages/PageNotFound";
-import SolarSystem from '../../pages/solar-system';
-
+import Planet from '../../pages/planet';
+import React from 'react';
 
 const AppRouter = () => {
     return (
@@ -22,6 +21,7 @@ const AppRouter = () => {
             <Route exact path={'/'} component={HomeScreen} />
             <Route exact path={'/comment'} component={CommentScreen} />
             <Route exact path={'/fish'} component={Fish} />
+            <Route exact path={'/planet'} component={Planet} />
             <Route exact path={'/about-us'} component={AboutPage} />
             <Route exact path={'/fishingame'} component={Fishing} />
             <Route exact path={'/mystery'} component={Mystery} />
