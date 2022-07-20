@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './space.module.scss';
 import solarImage from '../../assets/solar.png';
+import style from './space.module.scss';
 
 const SolarSystem = () => {
     return (
@@ -20,11 +20,11 @@ const SolarSystem = () => {
                 9. You are held onto the surface of the Earth by a force called gravity. This is the same force that keeps the Earth and the other planets orbiting around the Sun.<br></br>
                 10. Not everything in the Solar system orbits directly around the Sun. The Moon orbits around the Earth.<br></br>
                 </p>
-                <button className={style.buttonFish}><a href='https://solarsystem.nasa.gov/kids/do-it-yourself/?page=0&per_page=40&order=created_at+desc&search=&category=139' target="_blank">Learn more here...</a></button>
+                <button className={style.buttonPlanet}><a href='https://solarsystem.nasa.gov/kids/do-it-yourself/?page=0&per_page=40&order=created_at+desc&search=&category=139' target="_blank">Learn more here...</a></button>
             </div>
             <div>
             <h1>Learning section</h1>
-                <button className={style.buttonFish}><a href='https://kids.nationalgeographic.com/games/action-adventure/article/space-explorer' target="_blank">Find out more here...</a></button>
+                <button className={style.buttonPlanet}><a href='https://kids.nationalgeographic.com/games/action-adventure/article/space-explorer' target="_blank">Find out more here...</a></button>
             </div>
             
         </div>
