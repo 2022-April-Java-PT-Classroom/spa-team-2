@@ -1,10 +1,12 @@
 .pages {
-    // background-color: rgb(160, 236, 237);
-    // background-image: url("assets/bg.jpg");
     position: relative;  
-    height: 800px;
+
+    height: fit-content;
+
+    height: auto;
+
     margin: 2rem auto;
-    max-width: 1000px;
+    max-width: fit-content;
     padding: 20px;
     
 

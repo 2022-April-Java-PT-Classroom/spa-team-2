@@ -2,7 +2,7 @@ import { React, useState } from "react";
 
 import Question from "./question";
 import data from "./data";
-import style from './style.module.scss';
+import style from './faq.module.scss';
 
 function App() {
   const [question, setQuestion] = useState(data);

@@ -1,5 +1,4 @@
 .mystere {
-    
     position: relative;  
     height: 680px; 
     width: 1000px;
@@ -11,9 +10,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 1fr 1/2fr 100px;
-    
     gap: 10px;
-    // padding: 5px;
     align-items: center;
     position: relative;
     box-sizing: border-box;

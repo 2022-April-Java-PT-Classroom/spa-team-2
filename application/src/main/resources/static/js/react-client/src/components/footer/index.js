@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={style.footer}>
 
             <div>
-                <small> &copy; team3 2022</small>
+                <small> &copy; team2 2022</small>
             </div>
             <div>
                 <ul className={style.socialList}>
