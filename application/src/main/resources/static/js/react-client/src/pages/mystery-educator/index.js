@@ -1,13 +1,11 @@
 import React from 'react';
-import style from './mystery.module.scss';
-import spaceImage from '../../assets/space.jpg';
-import spaceImage3 from '../../assets/space1.jpg';
-import spaceImage1 from '../../assets/fish.jpg';
-import spaceImage2 from '../../assets/fish3.jpg';
 import choiceImage from '../../assets/choiceleft.jpg';
 import choiceImage1 from '../../assets/choiceright.jpg';
-
-
+import spaceImage from '../../assets/space.jpg';
+import spaceImage1 from '../../assets/fish.jpg';
+import spaceImage2 from '../../assets/fish3.jpg';
+import spaceImage3 from '../../assets/space1.jpg';
+import style from './mystery.module.scss';
 
 const Mystery = () => {
     return (
@@ -29,7 +27,7 @@ const Mystery = () => {
                 </div>
 
                 <div className={style.section5}>                   
-                    <h4><a href='myspace'>NASA SECTION</a>  </h4>
+                    <h4><a href='planet'>NASA SECTION</a>  </h4>
                     <img className={style.img1} src={choiceImage} alt='finger image' /> 
                 </div>
                 

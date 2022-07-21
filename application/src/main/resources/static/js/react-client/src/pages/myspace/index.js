@@ -1,10 +1,10 @@
 import React from "react";
 import style from './style.module.scss';
 
-const MySpace = () => {
+const Planet = () => {
     return (
         <div>
-            <div className={style.space}>
+            <div className={style.planet}>
                 <h1>Top 10 Facts About Space!</h1>
                 <p>Do you want to learn about space? Well you've come to the right place! Check out these 10 facts about space...</p>
                 <h5>Watch this video from Deep Space High to find out more!</h5>
@@ -28,4 +28,4 @@ const MySpace = () => {
         </div>
     );
 }
-export default MySpace;
+export default Planet;

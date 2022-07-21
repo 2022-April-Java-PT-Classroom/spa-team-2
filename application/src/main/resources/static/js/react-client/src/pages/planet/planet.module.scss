@@ -6,11 +6,11 @@
     width: 100%;
     box-shadow: 10px 10px;
     border: yellowgreen 5px solid;
-}
+
 
 P{
-    background-color: antiquewhite;
-    color: rgba(0, 0, 0, 0.563);
+    background-color: rgb(34, 24, 17);
+    color: silver;
     border: silver 5px solid;
 }
 
@@ -26,8 +26,8 @@ P{
 }
 
 iframe{
-    border: silver 5px solid;
-    align-items: center;
+    border: rgb(237, 99, 99) 5px solid;
+   
 }
 
 .info{
@@ -53,13 +53,9 @@ iframe{
     margin-top:15px;
     margin-bottom:15px;
     border: darkolivegreen 5px solid;
-    background-color: burlywood;
+   
 }
 
-.buttonPlanet:hover{
-    background-color: cadetblue;
-    transition: 1s;
-}
 
 a{
     text-decoration: none;
@@ -69,7 +65,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     padding:10px;
     border-radius: 20px;
-    border:darkblue 5px solid;
+    border:rgb(182, 104, 35) 5px solid;
 }
 
 h2{
@@ -77,16 +73,28 @@ h2{
     padding:10px;
     border-radius: 20px;
     background-color: white;
-    border:darkblue 5px solid;
+    border:rgb(9, 97, 32) 5px solid;
     color: black;
 }
 
 h3{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: black;
+    color: silver;
     padding:10px;
     border-radius: 20px;
-    background-color: rgb(140, 236, 228);
-    border:darkblue 5px solid;
+    background-color: rgb(10, 48, 45);
+    border:silver 5px solid;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
 }
