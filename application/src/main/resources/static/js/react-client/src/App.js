@@ -4,8 +4,10 @@ import AppRouter from './components/app-router';
 import { BrowserRouter } from 'react-router-dom';
 import Footer from './components/footer';
 import Header from './components/header';
-import {Howel} from 'howler';
 import style from './style.module.scss';
+
+//import {Howel} from 'howler';
+
 
 const App = () => {
   return (

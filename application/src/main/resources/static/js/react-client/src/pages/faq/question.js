@@ -1,22 +1,23 @@
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import { React, useState } from "react";
+// //import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
-const Question = function ({ title, info }) {
-  const [showInfo, setShowInfo] = useState(false);
-  return (
-    <article>
-      <header className="content">
-        <div className="flex">
-          <h3 className="title">{title}</h3>
-          <button className="btn" onClick={() => setShowInfo(!showInfo)}>
-            {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
-          </button>
-        </div>
+// import { React, useState } from "react";
 
-        {showInfo && <p>{info}</p>}
-      </header>
-    </article>
-  );
-};
+// const Question = function ({ title, info }) {
+//   const [showInfo, setShowInfo] = useState(false);
+//   return (
+//     <article>
+//       <header className="content">
+//         <div className="flex">
+//           <h3 className="title">{title}</h3>
+//           <button className="btn" onClick={() => setShowInfo(!showInfo)}>
+//             {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+//           </button>
+//         </div>
 
-export default Question;
+//         {showInfo && <p>{info}</p>}
+//       </header>
+//     </article>
+//   );
+// };
+
+// export default Question;
