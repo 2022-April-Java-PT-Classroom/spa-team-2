@@ -30,24 +30,29 @@ public class Populator implements CommandLineRunner{
         fishRepo.save(opah);
         
 
-        Planet mars = new Planet("Mars", "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System," +
-                " being larger than only Mercury. In English, Mars carries the name of the Roman god of war.", "oblate spheroid","planet-image/mars.jpg");
+        Planet mars = new Planet("The Mars", "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System," +
+                " being larger than only Mercury. In English, Mars carries the name of the Roman god of war.", "Shape: oblate spheroid","planet-image/mars.jpg");
         planetRepo.save(mars);
-        Planet jupiter = new Planet("Jupiter", " Jupiter is the fifth planet from the Sun and the largest in the Solar System. " +
+        Planet jupiter = new Planet("The Jupiter", " Jupiter is the fifth planet from the Sun and the largest in the Solar System. " +
                 "It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined," +
-                " but slightly less than one-thousandth the mass of the Sun.", "Oblate spheroid", "planet-image/jupiter.jpg");
+                " but slightly less than one-thousandth the mass of the Sun.", "Shape: Oblate spheroid", "planet-image/jupiter.jpg");
         planetRepo.save(jupiter);
-        Planet mercury = new Planet("Mercury", "Mercury-the smallest planet in our solar system and closest to the sun- is only slightly larger than Earth's Moon." +
-                "Mercury is the fastest planet, zipping around the Sun every 88 Earth days. ", "Sphere","planet-image/mercury.jpg");
+        Planet mercury = new Planet("The Mercury", "Mercury-the smallest planet in our solar system and closest to the sun- is only slightly larger than Earth's Moon." +
+                "Mercury is the fastest planet, zipping around the Sun every 88 Earth days. ", "Shape: Sphere","planet-image/mercury.jpg");
         planetRepo.save(mercury);
-        Planet earth = new Planet("Earth", "Earth is the third planet from the Sun and the only astronomical object known to harbor life." +
+        Planet earth = new Planet("The Earth", "Earth is the third planet from the Sun and the only astronomical object known to harbor life." +
                 " While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. " +
-                "About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.","Spherical","planet-image/earth.jpg");
+                "About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.","Shape: Spherical","planet-image/earth.jpg");
         planetRepo.save(earth);
-        Planet saturn = new Planet("Saturn", "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter." +
+        Planet saturn = new Planet("The Saturn", "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter." +
                 " It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; " +
-                "however, with its larger volume, Saturn is over 95 times more massive.", " Oblate spheroid","planet-image/saturn.jpg");
+                "however, with its larger volume, Saturn is over 95 times more massive.", " Shape: Oblate spheroid","planet-image/saturn.jpg");
         planetRepo.save(saturn);
+
+        Planet venus = new Planet("The Venus", "Venus is the second planet from the Sun and is Earth’s closest planetary neighbor. " +
+                "It’s one of the four inner, terrestrial (or rocky) planets, and it’s often called Earth’s twin because it’s similar in size and density. " +
+                "These are not identical twins, however – there are radical differences between the two worlds.","Shape: Sphere","planet-image/venus.jpg");
+        planetRepo.save(venus);
 
     }
 }
