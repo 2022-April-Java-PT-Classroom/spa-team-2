@@ -35,7 +35,7 @@ const AboutPage = () => {
                 <h2>Dhana P Acharya</h2>
                 <p>Current Amazon Problem Solver , Process Guide, and Learning Ambassador  for problem solvers 
                     and  Count Associates looking to further career in  IT field 
-                    by obtaining a role of a Front End Developer to make best use of the experiences and skills 
+                    by obtaining a role of a Junior Developer to make best use of the experiences and skills 
                     that I gained through We CAN CODE IT, and Kenzie Academy.
                     I am a passionate learner. Learning means fun to me. Learning anything new always enchants me.
                     I love coding.

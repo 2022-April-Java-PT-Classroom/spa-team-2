@@ -23,7 +23,7 @@ const Planet = () => {
                     
                 </p>
             </div>
-            <button className={style.buttonPlanet}><a href='https://youtu.be/sSEkQDq42lw'>Watch your fun space entertaiment here...</a> </button>
+            <button className={style.buttonPlanet}><a href='https://youtu.be/sSEkQDq42lw'>Watch for more fun  here...</a> </button>
             
         </div>
     );
