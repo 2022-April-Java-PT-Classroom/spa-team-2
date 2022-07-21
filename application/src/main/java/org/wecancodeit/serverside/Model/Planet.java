@@ -3,6 +3,7 @@ package org.wecancodeit.serverside.Model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import java.util.Objects;
 
 @Entity
@@ -14,8 +15,10 @@ public class Planet {
     private Long id;
 
     private String name;
+    @Lob
 
     private String description;
+    @Lob
     private String shape;
     private  String image;
 
