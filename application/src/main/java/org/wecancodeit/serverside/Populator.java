@@ -28,7 +28,8 @@ public class Populator implements CommandLineRunner{
         fishRepo.save(haddock);
         Fish opah = new Fish("Opah", "Opah are found in tropical and temperate waters all around the world", "Because opah are not a major commercial seafood species and they live in the deep ocean, scientists know very little about their biology and ecology.", "Opah are an unusual looking fish—they have a round, flat body that’s silvery gray in color. Toward the belly, the silver shades to a rose red, dotted with white spots.", "fish-images/opah.png");
         fishRepo.save(opah);
-        
+        Fish atlanticHalibut = new Fish("Atlantic Halibut", "In U.S. waters, halibut is most common in the Gulf of Maine.", "tlantic halibut is the largest species of flatfish in the world. Atlantic halibut can reach up to 15 feet in length. The largest Atlantic halibut recorded was taken off Cape Ann, Massachusetts, and weighed 615 pounds (eviscerated with the head still attached). It likely weighed 700 pounds when it was alive.", "Atlantic halibut can be distinguished from other right-eyed flounders by their large size, concave caudal fin, large, gaping mouth, and arched lateral line. It is one of the largest fish found in the Gulf of Maine.", "fish-images/halibut.png");
+        fishRepo.save(atlanticHalibut);
 
         Planet mars = new Planet("The Mars", "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System," +
                 " being larger than only Mercury. In English, Mars carries the name of the Roman god of war.", "Shape: oblate spheroid","planet-image/mars.jpg");

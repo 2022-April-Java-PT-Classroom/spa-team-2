@@ -28,16 +28,8 @@ public class FishController {
     public Collection<Fish>addFish(@RequestBody String body) throws JSONException {
         JSONObject newFish = new JSONObject(body);
         String addFishName = newFish.getString("name");
-//        boolean fishIsSelected = newFish.getBoolean("isSelected");
-//            Fish fishToAdd = new Fish(fishName,fishIsSelected)
 
         return (Collection<Fish>) fishRepo.findAll();
     }
-
-//    @PutMapping("/api/fishes/{id}select-fish")
-//    public  Collection<Fish>selectFish(@PathVariable Long id, @RequestBody String body)throws JSONException{
-//        JSONObject newFish = new JSONObject(body);
-//        boolean fishIsSelected
-//    }
 
 }

@@ -58,7 +58,7 @@ const Game = () => {
 
                 
 
-                document.getElementsByClassName(style.board).append(title);
+                // document.getElementsByClassName(style.board).append(title);
             }
         }
     }
