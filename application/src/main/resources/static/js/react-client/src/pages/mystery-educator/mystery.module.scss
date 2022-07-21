@@ -5,9 +5,6 @@
     width: 1000px;
     padding: 20px;
 
-    
-}
-
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -81,16 +78,11 @@ h1, h2{
 h3{
     font-family: Lucida Handwriting;
 }
+
 h4{
     text-align: center;
     background-color: gold;
     background: linear-gradient(#a0de19,#bfff00);
-
-h4{
-    text-align: center;
-    background-color: gold;
-    
-
 }
 
 .section2{
@@ -101,6 +93,7 @@ h4{
     background-color: rgb(34, 222, 235);
     border-radius: 10px;
 }
+
 .section3{
     grid-column-start: 4;
     grid-column-end: 5;

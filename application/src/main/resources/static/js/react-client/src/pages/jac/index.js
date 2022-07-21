@@ -1,29 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import style from './jac.module.scss';
 import advButton from '../../assets/adventurebtn.jpg';
 import jacImage from '../../assets/jac.jpeg';
-import jacbackground from '../../assets/jac-bg.jpeg';
+import axios from 'axios';
 
-               
+const boredUrl = 'http://www.boredapi.com/api/activity/';
+
 const Jac = () => {
-return (
-       
-   <div className={style.mystere}>
-        <div className={style.container}>
 
-            <div className={style.section1}>
-                <h2>Jac's Daily Adventure</h2>
-                <a href='' target="_blank"><img src={advButton}  alt='adv btn' /></a> 
-            </div>
+    const [boredData, setBoredData] = useState([]);
 
-            
-            <div className={style.section2}>
-                <h2>Jac Enterprises</h2>
-                <a href='http://127.0.0.1:5500/index.html' target="_blank"><img src={jacImage} alt='jac image' /></a> 
-            </div>
+    useEffect(() => {
+    const getBoredWithFetch = async () => {
+    const response = await fetch(boredUrl);
+    const jsonData = await response.json();
+    setBoredData(jsonData);
+  }
+    getBoredWithFetch()
+}, []);
+
+  
+  
+    return (
+      <div className={style.jac}>
+        <header>
+          <h2>Jac's Daily Adventure!</h2>
+        </header>
+        <div className="style.container">
+          <h2 className="style.activity">{boredData.activity}</h2>
+        </div>
       </div>
-    </div>  
-   )
-}
+    );
+  }
 
 export default Jac;
