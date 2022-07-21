@@ -1,7 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 
 import AboutPage from '../../pages/about-us';
-import CommentScreen from '../../pages/comment';
 import Email from '../../pages/email-us';
 import FAQ from '../../pages/faq';
 import Fish from '../../pages/fish';
@@ -21,7 +20,6 @@ const AppRouter = () => {
     return (
         <Switch>
             <Route exact path={'/'} component={HomeScreen} />
-            <Route exact path={'/comment'} component={CommentScreen} />
             <Route exact path={'/fish'} component={Fish} />
             <Route exact path={'/planet'} component= {Planet} /> 
             <Route exact path={'/about-us'} component={AboutPage} />

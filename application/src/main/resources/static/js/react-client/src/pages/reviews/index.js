@@ -38,28 +38,35 @@ const Reviews = () => {
 
     return (
         <div className={style.reviews}>
+            <p className={style.statement}><span>We appreciate any feedback. Please leave a review and let us know what you thought of our page! </span></p>
         <div className={style.review__form}>
             <form onSubmit={handleSubmit}>
                     <input type="text" name="name" value={reviewState.name} onChange={handleChange} placeholder='Enter Your Name' />
                     <textarea type="text" name="text" value={reviewState.text} onChange={handleChange} placeholder='Enter Your Review' />
                     <button type="submit">Submit Review</button>
+                  
             </form>    
 
-        </div>
-        
+        </div > 
+        <div className={"review__section"}>
             {reviews==null ? <h2>Loading Reviews ...</h2> :
-                <div className="review__section">
-                    <h2 className="review__head">Reviews</h2>
+                <div >
+                    <h2><span>Reviews</span></h2>
+                    <div className={"review__text"}>
                     <ul>
                         {reviews.map(review => (
-                            <div className="new__review" key={review.reviewId}>
+                        <div className="new__review" key={review.reviewId}>
+                            <div className = {"individual__review"}>
                                 <p>Review Name: {review.name}</p>
                                 <p>Review Text: {review.text}</p>
                             </div>
+                        </div>
                         ))}
                     </ul>
+                    </div>
                 </div>
             }
+           </div> 
         </div>
         
     )

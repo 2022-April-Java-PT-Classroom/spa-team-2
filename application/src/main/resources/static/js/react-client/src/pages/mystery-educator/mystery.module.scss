@@ -4,97 +4,98 @@
     height: fit-content; 
     width: fit-content;
     padding: 20px;
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 50px 1fr 1fr 50px;
+        gap: 20px;
+        padding: 5px;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+        
+    }
+    .section1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: rgb(46, 37, 118);
+        border-radius: 10px;
+    }
+    .section4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: rgb(46, 37, 118);
+        border-radius: 10px;
+    }
+    .section5{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color: rgb(248, 235, 148);
+        border-radius: 10px;
+    }
+    .section6{
+        grid-column-start:3 ;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: rgb(248, 235, 148);
+        border-radius: 10px;
+    }
+    .section7{
+        width: 100%;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background: linear-gradient(#06519d,#00ffd5);
+    
+        border-radius: 10px;
+    }
+    h1, h2{
+        text-align: center;
+        background-color: aliceblue;
+        font-family: Lucida Handwriting;
+    }
+    
+    h3{
+        font-family: Lucida Handwriting;
+    }
+    h4{
+        text-align: center;
+        background-color: gold;
+        background: linear-gradient(#a0de19,#bfff00);
+    }
+    
+    h4{
+        text-align: center;
+        background-color: gold;  
+    
+    }
+    
+    .section2{
+        margin-top: 50px;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: rgb(34, 222, 235);
+        border-radius: 10px;
+    }
+    .section3{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color:  rgb(34, 222, 235);
+        border-radius: 10px;
+    }
     
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 50px 1fr 1fr 50px;
-    gap: 20px;
-    padding: 5px;
-    align-items: center;
-    position: relative;
-    box-sizing: border-box;
-    
-}
-.section1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-color: rgb(46, 37, 118);
-    border-radius: 10px;
-}
-.section4{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color: rgb(46, 37, 118);
-    border-radius: 10px;
-}
-.section5{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-color: rgb(248, 235, 148);
-    border-radius: 10px;
-}
-.section6{
-    grid-column-start:3 ;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-color: rgb(248, 235, 148);
-    border-radius: 10px;
-}
-.section7{
-    width: 100%;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background: linear-gradient(#06519d,#00ffd5);
-
-    border-radius: 10px;
-}
-h1, h2{
-    text-align: center;
-    background-color: aliceblue;
-    font-family: Lucida Handwriting;
-}
-
-h3{
-    font-family: Lucida Handwriting;
-}
-h4{
-    text-align: center;
-    background-color: gold;
-    background: linear-gradient(#a0de19,#bfff00);
-}
-
-h4{
-    text-align: center;
-    background-color: gold;  
-
-}
-
-.section2{
-    margin-top: 50px;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-color: rgb(34, 222, 235);
-    border-radius: 10px;
-}
-.section3{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color:  rgb(34, 222, 235);
-    border-radius: 10px;
-}
