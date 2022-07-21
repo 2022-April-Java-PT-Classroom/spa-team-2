@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from "react";
-
+import reviewsbackground from '../../assets/reviewsbackground.jpg';
 import axios from "axios";
 import style from './style.module.scss';
 
@@ -37,7 +37,7 @@ const Reviews = () => {
     };
 
     return (
-        <div>
+        <div className={style.reviews}>
         <div className={style.review__form}>
             <form onSubmit={handleSubmit}>
                     <input type="text" name="name" value={reviewState.name} onChange={handleChange} placeholder='Enter Your Name' />
