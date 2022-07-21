@@ -31,7 +31,7 @@ const AppRouter = () => {
             <Route exact path={'/email-us'} component={Email} />
             <Route exact path={'/solar-system'} component={SolarSystem} /> 
             <Route exact path={'/myspace'} component={MySpace} />
-            <Route exact path={'/games'} component={Game} />
+        
 
             {/* <Route exact path={'/about-us'} component={About} /> */}
             {/* <Route exact path={'/games'} component={Game} /> */}

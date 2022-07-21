@@ -8,7 +8,7 @@ const HomeScreen = () => {
         <div className={style.container}>
                 
             <div className={style.section1}>
-                    <h2><a href='solar-system' target="_blank" alt='solar-system'>Solar System</a> </h2>
+                    <h2><a href='solar-system' target="_blank" alt='solar-system'>The Solar System</a> </h2>
                 <iframe width="500" height="315" src="https://www.youtube.com/embed/RJ2bQWH6GCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className={style.section2}>

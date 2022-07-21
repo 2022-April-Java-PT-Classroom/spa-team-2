@@ -6,7 +6,7 @@ const SolarSystem = () => {
     return (
         <div className={style.nasa}>
             <div className={style.space}>
-                <h1>10 facts about the solar sytem</h1>
+                <h1>10 facts about the solar system</h1>
                 <img className={style.img} src={solarImage} alt='solar system image' /><br></br>
                 <p>
                 1. Everything in the Solar System revolves around the Sun. The Sun is a star – a massive ball of hot gas that gives off light and heat.<br></br>
