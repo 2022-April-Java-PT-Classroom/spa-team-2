@@ -15,7 +15,7 @@ const Mystery = () => {
             <div className={style.container}>
                 
                 <div className={style.section1}>
-                        <h2><a href='myspace'>My space</a></h2>
+                        <h2><a href='planet'>The Planets</a></h2>
                     <a href='myspace' target="_blank"><img src={spaceImage} alt='space image' /></a> 
                 </div>
                     
