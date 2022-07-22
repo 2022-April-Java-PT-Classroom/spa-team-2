@@ -38,18 +38,18 @@ return (
         <div className={style.container}>
 
             <div className={style.section1}>
-                <h2>Jac's Daily Activity</h2>
+                <h2 className={"header"}>Jac's Daily Activity</h2>
                 <h3 className="style.activity">{boredData.activity}</h3>
             </div> 
         
             <div className={style.section1}>
-                <h2>Jac's Daily Space Picture</h2>
+                <h2 className={"header"}>Jac's Daily Space Picture</h2>
                 <img src = {nasaData.url}/>
             </div> 
 
             
             <div className={style.section2}>
-                <h2>Jac Enterprises</h2>
+                <h2 className={"header"}>Jac Enterprises</h2>
                 <a href='http://127.0.0.1:5500/index.html' target="_blank"><img src={jacImage} alt='jac image' /></a> 
             </div>
        </div>
