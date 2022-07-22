@@ -20,26 +20,26 @@
             border-radius: 10px;
         }
         .section1{
-            grid-column-start: 1;
-            grid-column-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 3;
             background-color: rgb(46, 37, 118);
             border-radius: 10px;
         }
         .section2{
-            grid-column-start: 4;
-            grid-column-end: 5;
-            grid-row-start: 1;
-            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
             background-color: rgb(34, 222, 235);
             border-radius: 10px;
         }
         .section4{
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 3;
-            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
             background-color: rgb(46, 37, 118);
             border-radius: 10px;
         }
@@ -64,8 +64,8 @@
         
         
         .section3{
-            grid-column-start: 4;
-            grid-column-end: 5;
+            grid-column-start: 3;
+            grid-column-end: 4;
             grid-row-start: 3;
             grid-row-end: 4;
             background-color:  rgb(34, 222, 235);
