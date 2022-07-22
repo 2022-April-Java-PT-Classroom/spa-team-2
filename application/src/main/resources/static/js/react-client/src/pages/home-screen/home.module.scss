@@ -1,8 +1,5 @@
-.mystere {
-    position: relative;  
-    height: 680px; 
-    width: 1000px;
-    margin-bottom: 20px;
+
+    
 
     .container{
         display: grid;
@@ -13,70 +10,72 @@
         position: relative;
         box-sizing: border-box;
         margin-top: 0;
-    }
-    .section6{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        background-color: rgb(46, 37, 118);
-        border-radius: 10px;
-    }
-    .section1{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        background-color: rgb(46, 37, 118);
-        border-radius: 10px;
-    }
-    .section2{
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        background-color: rgb(34, 222, 235);
-        border-radius: 10px;
-    }
-    .section4{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        background-color: rgb(46, 37, 118);
-        border-radius: 10px;
-    }
-    .section5{
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        background-color: rgb(155, 93, 13);
-        border-radius: 10px;
-    }
-    h1, h2{
-        text-align: center;
-        background-color: aliceblue;
-        font-family: Lucida Handwriting;
-    }
-    h4{
-        text-align: center;
-        background-color: gold;
+
+        .section6{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: rgb(46, 37, 118);
+            border-radius: 10px;
+        }
+        .section1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: rgb(46, 37, 118);
+            border-radius: 10px;
+        }
+        .section2{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: rgb(34, 222, 235);
+            border-radius: 10px;
+        }
+        .section4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-color: rgb(46, 37, 118);
+            border-radius: 10px;
+        }
+        .section5{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            background-color: rgb(155, 93, 13);
+            border-radius: 10px;
+        }
+        h1, h2{
+            text-align: center;
+            background-color: aliceblue;
+            font-family: Lucida Handwriting;
+        }
+        h4{
+            text-align: center;
+            background-color: gold;
+            
+        }
         
+        
+        .section3{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-color:  rgb(34, 222, 235);
+            border-radius: 10px;
+        }
     }
     
     
-    .section3{
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        background-color:  rgb(34, 222, 235);
-        border-radius: 10px;
-    }
     
     
     
-    
-}
+
 
