@@ -25,7 +25,7 @@ const Planet = () => {
                 <div className={style.head}>
                     <h1>Come explore the planets of the Solar system!</h1>
                      
-                    <iframe width="400" height="300" src="https://www.youtube.com/embed/RJ2bQWH6GCM" title="YouTube video player" frameborder="0"
+                    <iframe width="700" height="500" src="https://www.youtube.com/embed/RJ2bQWH6GCM" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className={style.info}>
