@@ -1,18 +1,21 @@
 .mystere {
     background-color:rgba(80, 181, 228, 0.944); 
     position: relative;  
-    height: fit-content; 
-    width: fit-content;
-    padding: 20px;
+    height: 50%; 
+    width: 75%;
+    padding: 10px;
+    margin-left: 10%;
 
     .container{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 50px 1fr 1fr 50px;
         gap: 20px;
         padding: 5px;
         align-items: center;
         position: relative;
+        margin-right:10px;
+        margin-left:10px;
         box-sizing: border-box;
         
     }
@@ -39,14 +42,20 @@
         grid-row-end: 4;
         background-color: rgb(248, 235, 148);
         border-radius: 10px;
+        margin-left: 10%;
+        width: 75%;
+        height: 50%;
     }
     .section6{
         grid-column-start:3 ;
         grid-column-end: 4;
-        grid-row-start: 2;
+        grid-row-start: 1;
         grid-row-end: 4;
         background-color: rgb(248, 235, 148);
         border-radius: 10px;
+        margin-left: 10%;
+        width: 75%;
+        height: 50%;
     }
     .section7{
         width: 100%;
@@ -55,7 +64,10 @@
         grid-row-start: 1;
         grid-row-end: 2;
         background: linear-gradient(#06519d,#00ffd5);
-    
+        text-align: center;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px grey,
+                   2px 2px 1px orange;
         border-radius: 10px;
     }
     h1, h2{

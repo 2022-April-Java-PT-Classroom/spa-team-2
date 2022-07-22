@@ -7,6 +7,7 @@
     background-color: rgb(227, 242, 22);
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: large;
 }
 
 .footer__wrapper {
@@ -15,9 +16,8 @@
 
 .socialList {
     display: flex;
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
-    font-family: cursive;
     
     & li {
         align-items: center;
