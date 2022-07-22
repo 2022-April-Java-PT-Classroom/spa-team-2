@@ -3,7 +3,7 @@ import style from './jac.module.scss';
 import advButton from '../../assets/adventurebtn.jpg';
 import jacImage from '../../assets/jac.jpeg';
 import axios from 'axios';
-const nasaUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY';
+const nasaUrl = 'https://api.nasa.gov/planetary/apod?api_key=QbZRWN5aiSa3DiBYYOmgivOlViZ0FfJGAJS24Qu2';
 const boredUrl = 'http://www.boredapi.com/api/activity/';
 
 const Jac = () => {
@@ -39,7 +39,7 @@ return (
 
             <div className={style.section1}>
                 <h2>Jac's Daily Activity</h2>
-                <h2 className="style.activity">{boredData.activity}</h2>
+                <h3 className="style.activity">{boredData.activity}</h3>
             </div> 
         
             <div className={style.section1}>
