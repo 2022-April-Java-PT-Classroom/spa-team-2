@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import AboutPage from '../../pages/about-us';
 import Email from '../../pages/email-us';
-
+import FAQ from '../../pages/faq';
 import Fish from '../../pages/fish';
 import Fishing from '../../pages/fishingame';
 import Game from '../../pages/games';
@@ -35,7 +35,7 @@ const AppRouter = () => {
             <Route exact path={'/reviews'} component={Reviews} />
 
             <Route exact path={'/reviews'} component={Reviews} />
-            
+            <Route exact path={'/faq'} component={FAQ} />
 
             <Route component={PageNotFound} />
 
