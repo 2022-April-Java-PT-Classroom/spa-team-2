@@ -27,7 +27,7 @@ const Fish = () => {
                     <iframe width="800" height="600" src="https://www.youtube.com/embed/r9PeYPHdpNo" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className={style.info}>
-                <h3 className={style.h3}>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
+                <h3 className={style.facts}>This site offers lots of cool facts about the many fish that inhabit the waters of our world. Read below to learn more!</h3>
                 </div>
             </div>
             <div className={style.fishWrapper}>
